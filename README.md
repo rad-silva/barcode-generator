@@ -34,3 +34,10 @@ Rode a aplicação:
 ```
 python3 run.py
 ```
+
+Você pode usar a ferramenta Postman como auxilio para enviar uma requisição `POST` no endereço `http://localhost:3000/create_tag` contendo o texto escolhido:
+```
+{
+    "product_code": "bar-coders-e-onde-habitam"
+}
+```
