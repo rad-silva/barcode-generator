@@ -6,11 +6,12 @@ Um mini projeto para geração de código de barras a partir de um texto.
 
 ## Principais ferramentas utilizadas:
 - python
-- Flask
+- flask
 - virtualenv
 - python-barcode
 - pylint
 - pre-commit
+- cerberus
 
 
 ## Procedimentos para utilização
@@ -24,7 +25,7 @@ Crie e ative um ambiente virtual python:
 . .venv/bin/activate
 ```
 
-Installe as dependências necessárias:
+Instale as dependências necessárias:
 ```
 pip3 install -r requirements.txt
 ```
